@@ -1,1 +1,1 @@
-int find(const char lista[10][20], const char nome[20]);
+int risultato(char lista[10][20], char nome[20], int &i);
