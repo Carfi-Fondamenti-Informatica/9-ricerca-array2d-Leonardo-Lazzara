@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     char lista[10][20];
     char nome[1][20];
-    int posizione=0
+    int posizione=0;
     for (int i = 0; i < 10; i++) {
         cin >> lista[i];
      }
