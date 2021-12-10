@@ -1,16 +1,12 @@
 #include "lib.h"
-#include <iostream>
-using namespace std;
+#include <string.h>
 
-int find( const char lista[10][20], const char nome[20]) {
+bool risulato(char lista[10][20], char nome[20], int &i) {
         for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 20; j++) {
-                if(ista[i][j]!=nome[j]){
-                    break;
-                }else {
-                    return i;
+                if((strcmp(lista[i],nome))==0){
+                        return true;
                 }
-            }
         }
-        return -1;
+        return false;
+       
 }
