@@ -1,1 +1,1 @@
-int find(char lista[10][20],char nome[1][20]);
+bool risultato(char lista[10][20], char nome[1][20], int &posizione);
