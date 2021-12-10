@@ -1,1 +1,1 @@
-int posizione(char lista[10][20], char nome[20], int &i);
+int risultato(char lista[10][20], char nome[1][20], int &posizione);
